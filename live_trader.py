@@ -39,8 +39,8 @@ from advanced_modules import FactorTracker, EVEstimator, RegimeDetector, Failure
 # ============================================================
 # 配置
 # ============================================================
-BINANCE_API_KEY = "sHeExZ0Z6OK2Bvk8VmH2EdYi5AWCBe2CojBtkdQWb14xgXcDK0GEn8IGpsG2W3Qq"
-BINANCE_API_SECRET = "dkIKL509rVPYkKrnkDFFjRjDL12p9eHTSLQr2DPt7OgJwpoczDNNvfcsK8mzacAp"
+BINANCE_API_KEY = os.environ.get("BINANCE_API_KEY", "")
+BINANCE_API_SECRET = os.environ.get("BINANCE_API_SECRET", "")
 BASE_URL = "https://fapi.binance.com"
 
 LEVERAGE = 10
