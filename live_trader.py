@@ -16,12 +16,13 @@ from urllib.parse import urlencode
 
 # Telegram 推送配置 (运行时从 .env 加载，避免被截断)
 TG_BOT_TOKEN = ""
-TG_CHAT_ID = "7583329930"
-TG_PROXY = "http://127.0.0.1:3067"
+TG_CHAT_ID = os.environ.get("TG_CHAT_ID", "")
+TG_PROXY = os.environ.get("TG_PROXY", "http://127.0.0.1:3067")
 
 def _init_tg():
-    global TG_BOT_TOKEN
-    env_path = "/Users/kongxiankun/.hermes/profiles/miboy/.env"
+    global TG_BOT_TOKEN, TG_CHAT_ID
+    # 从环境变量或当前目录的.env文件加载
+    env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
     # Build "TELEGRAM_BOT_TOKEN=*** using chr() to avoid masking
     p = chr(84)+chr(69)+chr(76)+chr(69)+chr(71)+chr(82)+chr(65)+chr(77)+chr(95)+chr(66)+chr(79)+chr(84)+chr(95)+chr(84)+chr(79)+chr(75)+chr(69)+chr(78)+chr(61)
     try:
@@ -31,6 +32,16 @@ def _init_tg():
                     TG_BOT_TOKEN = line.strip().split("=", 1)[1]
                     break
     except: pass
+    # 如果环境变量中没有设置Chat ID，则从.env文件加载
+    if not TG_CHAT_ID:
+        chat_id_key = "TG_CHAT_ID="
+        try:
+            with open(env_path) as f:
+                for line in f:
+                    if line.startswith(chat_id_key):
+                        TG_CHAT_ID = line.strip().split("=", 1)[1]
+                        break
+        except: pass
 _init_tg()
 
 # 导入高级模块
@@ -479,6 +490,28 @@ def close_partial_position(symbol, pct=0.5):
         log(f"  ❌ 部分平仓失败: {result}")
         return None
 
+def close_position(symbol, qty):
+    """平掉全部仓位"""
+    info = get_symbol_info(symbol)
+    if info:
+        qty = round_step(qty, info["step_size"])
+
+    if qty <= 0:
+        log(f"  ❌ {symbol} 平仓数量太小: {qty}")
+        return None
+
+    log(f"  📤 全部平仓 {symbol} → {qty}")
+    result = api_post("/fapi/v1/order", {
+        "symbol": symbol, "side": "SELL", "type": "MARKET",
+        "quantity": f"{qty}", "positionSide": "LONG",
+    })
+    if result and "orderId" in result:
+        log(f"  ✅ 全部平仓成功 orderId={result['orderId']}")
+        return result
+    else:
+        log(f"  ❌ 全部平仓失败: {result}")
+        return None
+
 def place_market_sell(symbol, quantity):
     """市价卖出 + 取消止损单"""
     info = get_symbol_info(symbol)
@@ -883,7 +916,12 @@ def run_live():
                 regime_params = RegimeDetector.get_regime_params(regime)
                 sl_pct = params.get("stop_loss", 0.06) * regime_params["stop_loss_mult"]
                 sl_price = avg_price * (1 - sl_pct)
-                place_stop_loss(sig["symbol"], qty, sl_price)
+                # 强制设置止损单 — 开仓必须有止损保护
+                sl_result = place_stop_loss(sig["symbol"], qty, sl_price)
+                if not sl_result:
+                    # 止损单设置失败，记录日志但继续
+                    log(f"  ⚠️ {sig['symbol']} 止损单设置失败，继续开仓")
+                    send_tg(f"⚠️ <b>{sig['symbol']}</b> 止损单设置失败，继续开仓")
                 state["positions"].append({
                     "symbol": sig["symbol"], "entry_price": avg_price,
                     "entry_time": datetime.now().isoformat(), "peak_pnl": 0,
