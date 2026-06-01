@@ -1,0 +1,69 @@
+{
+  "date": "2026-05-28",
+  "total_trades": 0,
+  "wins": 0,
+  "losses": 0,
+  "win_rate": 0,
+  "total_pnl": 0,
+  "unrealized_pnl": 1.22,
+  "total_pnl_with_unrealized": 1.22,
+  "avg_win": 0,
+  "avg_loss": 0,
+  "profit_factor": 0,
+  "balance": 1302.67571994,
+  "available": 1298.95762663,
+  "positions": [
+    {
+      "symbol": "XLMUSDT",
+      "side": "LONG",
+      "amount": 61.0,
+      "entry_price": 0.16367,
+      "mark_price": 0.1635622,
+      "unrealized_pnl": -0.0065758,
+      "leverage": 10
+    },
+    {
+      "symbol": "IOUSDT",
+      "side": "LONG",
+      "amount": 207.3,
+      "entry_price": 0.1713,
+      "mark_price": 0.17723823,
+      "unrealized_pnl": 1.23099507,
+      "leverage": 10
+    }
+  ],
+  "exit_reasons": {},
+  "symbol_stats": {},
+  "daily_cost": 50,
+  "daily_target": 60,
+  "net_profit": -50,
+  "changes": [
+    "整体亏损，收紧参数"
+  ],
+  "params": {
+    "oi_4h_th": 8,
+    "oi_1h_th": 0.4,
+    "vol_th": 2.0,
+    "chg_4h_th": 2,
+    "chg_1h_th": 0.2,
+    "entry_score": 58,
+    "stop_loss": 0.09000000000000001,
+    "take_profit": 0.2,
+    "max_hold_hours": 36,
+    "version": 2,
+    "history": [
+      {
+        "date": "2026-05-28",
+        "version": 2,
+        "changes": [
+          "整体亏损，收紧参数"
+        ],
+        "performance": {
+          "pnl": 0,
+          "win_rate": 0,
+          "trades": 0
+        }
+      }
+    ]
+  }
+}

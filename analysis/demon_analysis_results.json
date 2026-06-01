@@ -1,0 +1,1032 @@
+{
+  "coins": [
+    {
+      "symbol": "1000LUNCUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 217,
+      "phase2_end": 234,
+      "stats": {
+        "1": {
+          "duration_hours": 217,
+          "avg_price_pct_per_hour": 0.0001271368127928794,
+          "price_rate_bps": 1.271368127928794,
+          "total_price_change_pct": 0.022987061926893586,
+          "avg_oi_pct_per_hour": -0.001164155418896138,
+          "avg_smooth_oi_pct": -0.0011606505827947758,
+          "oi_surge_ratio": 1.0,
+          "avg_vol_ratio": 0.6888790826956541,
+          "max_vol_ratio": 2.3107325794019786,
+          "oi_vol_correlation": -0.08447461725702143,
+          "peak_oi": 169124872.0,
+          "start_idx": 0,
+          "end_idx": 216
+        },
+        "2": {
+          "duration_hours": 17,
+          "avg_price_pct_per_hour": 0.006716045377905999,
+          "price_rate_bps": 67.16045377905999,
+          "total_price_change_pct": 0.11761817065684477,
+          "avg_oi_pct_per_hour": 0.005976149194996635,
+          "avg_smooth_oi_pct": 0.0056980559096487145,
+          "oi_surge_ratio": 1.1282406259994129,
+          "avg_vol_ratio": 2.2456161275694653,
+          "max_vol_ratio": 4.532927405978024,
+          "oi_vol_correlation": 0.7590632091882961,
+          "peak_oi": 147953361.0,
+          "start_idx": 217,
+          "end_idx": 233
+        },
+        "3": {
+          "duration_hours": 6,
+          "avg_price_pct_per_hour": 0.0024221602586203973,
+          "price_rate_bps": 24.22160258620397,
+          "total_price_change_pct": 0.013727212826707677,
+          "avg_oi_pct_per_hour": 0.0025481891057177286,
+          "avg_smooth_oi_pct": 0.0005671458163135562,
+          "oi_surge_ratio": 1.0180874452516866,
+          "avg_vol_ratio": 2.1535710125676637,
+          "max_vol_ratio": 3.5948633520234283,
+          "oi_vol_correlation": 0.7813501956822532,
+          "peak_oi": 146784141.0,
+          "start_idx": 234,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 2,
+        "entry_price": 0.08714,
+        "peak_hour_offset": 13,
+        "peak_price": 0.09259,
+        "exit_price": 0.08949,
+        "potential_gain_pct": 6.254303419784267,
+        "realized_gain_pct": 2.6968097314666113,
+        "phase2_duration": 17
+      }
+    },
+    {
+      "symbol": "ALTUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 66,
+      "phase2_end": 81,
+      "stats": {
+        "1": {
+          "duration_hours": 66,
+          "avg_price_pct_per_hour": 8.659421765593664e-05,
+          "price_rate_bps": 0.8659421765593664,
+          "total_price_change_pct": 0.00516834022445355,
+          "avg_oi_pct_per_hour": 0.0009881983785171586,
+          "avg_smooth_oi_pct": 0.00051467028727423,
+          "oi_surge_ratio": 1.0638524037865542,
+          "avg_vol_ratio": 1.2015353266756328,
+          "max_vol_ratio": 5.412855168164333,
+          "oi_vol_correlation": 0.47875538501782605,
+          "peak_oi": 350761309.0,
+          "start_idx": 0,
+          "end_idx": 65
+        },
+        "2": {
+          "duration_hours": 15,
+          "avg_price_pct_per_hour": 0.003965584521512031,
+          "price_rate_bps": 39.65584521512031,
+          "total_price_change_pct": 0.05832231526369923,
+          "avg_oi_pct_per_hour": 0.013356259580427403,
+          "avg_smooth_oi_pct": 0.017237872092783584,
+          "oi_surge_ratio": 1.236871269564946,
+          "avg_vol_ratio": 4.109313757626807,
+          "max_vol_ratio": 10.222013566924721,
+          "oi_vol_correlation": 0.6803014351023344,
+          "peak_oi": 449346569.0,
+          "start_idx": 66,
+          "end_idx": 80
+        },
+        "3": {
+          "duration_hours": 159,
+          "avg_price_pct_per_hour": 0.0008509407707490799,
+          "price_rate_bps": 8.5094077074908,
+          "total_price_change_pct": 0.08938237335183907,
+          "avg_oi_pct_per_hour": 0.005472573114540349,
+          "avg_smooth_oi_pct": 0.005732775571493871,
+          "oi_surge_ratio": 2.667097625295275,
+          "avg_vol_ratio": 7.46381529036533,
+          "max_vol_ratio": 59.79567011501416,
+          "oi_vol_correlation": 0.6078793305283555,
+          "peak_oi": 1118524743.0,
+          "start_idx": 81,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 0,
+        "entry_price": 0.006786,
+        "peak_hour_offset": 9,
+        "peak_price": 0.007477,
+        "exit_price": 0.007124,
+        "potential_gain_pct": 10.182729148246386,
+        "realized_gain_pct": 4.9808429118773905,
+        "phase2_duration": 15
+      }
+    },
+    {
+      "symbol": "ARUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 226,
+      "phase2_end": 237,
+      "stats": {
+        "1": {
+          "duration_hours": 226,
+          "avg_price_pct_per_hour": -0.00011175529940634911,
+          "price_rate_bps": -1.1175529940634912,
+          "total_price_change_pct": -0.028253821213524755,
+          "avg_oi_pct_per_hour": 0.0004970801728889577,
+          "avg_smooth_oi_pct": 0.00036967159351032803,
+          "oi_surge_ratio": 1.1109451666010457,
+          "avg_vol_ratio": 1.5255532819425066,
+          "max_vol_ratio": 6.073624877364459,
+          "oi_vol_correlation": 0.11641748093094348,
+          "peak_oi": 2280430.7,
+          "start_idx": 0,
+          "end_idx": 225
+        },
+        "2": {
+          "duration_hours": 11,
+          "avg_price_pct_per_hour": 0.011386264390633068,
+          "price_rate_bps": 113.86264390633067,
+          "total_price_change_pct": 0.12958551691281553,
+          "avg_oi_pct_per_hour": 0.011730457956717006,
+          "avg_smooth_oi_pct": 0.01549841162717468,
+          "oi_surge_ratio": 1.167585845621271,
+          "avg_vol_ratio": 8.624337747240336,
+          "max_vol_ratio": 19.956617963929105,
+          "oi_vol_correlation": 0.023004656448554647,
+          "peak_oi": 2656576.9,
+          "start_idx": 226,
+          "end_idx": 236
+        },
+        "3": {
+          "duration_hours": 3,
+          "avg_price_pct_per_hour": -0.016142528217792832,
+          "price_rate_bps": -161.42528217792832,
+          "total_price_change_pct": -0.04765921552087726,
+          "avg_oi_pct_per_hour": 0.024714630243984476,
+          "avg_smooth_oi_pct": 0.013567398678827579,
+          "oi_surge_ratio": 1.015174383321178,
+          "avg_vol_ratio": 13.222210633609322,
+          "max_vol_ratio": 22.893703639181027,
+          "oi_vol_correlation": 0.9995771744517484,
+          "peak_oi": 2894926.7,
+          "start_idx": 237,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 0,
+        "entry_price": 2.128,
+        "peak_hour_offset": 10,
+        "peak_price": 2.371,
+        "exit_price": 2.33,
+        "potential_gain_pct": 11.41917293233082,
+        "realized_gain_pct": 9.492481203007516,
+        "phase2_duration": 11
+      }
+    },
+    {
+      "symbol": "BEATUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 107,
+      "phase2_end": 145,
+      "stats": {
+        "1": {
+          "duration_hours": 107,
+          "avg_price_pct_per_hour": 0.0013708858489375492,
+          "price_rate_bps": 13.708858489375492,
+          "total_price_change_pct": 0.1408491947291361,
+          "avg_oi_pct_per_hour": -0.0017609331484695,
+          "avg_smooth_oi_pct": -0.0016682191345721439,
+          "oi_surge_ratio": 1.007783439756653,
+          "avg_vol_ratio": 2.228478981099867,
+          "max_vol_ratio": 18.268749266442256,
+          "oi_vol_correlation": -0.33503216199473695,
+          "peak_oi": 28163774.0,
+          "start_idx": 0,
+          "end_idx": 106
+        },
+        "2": {
+          "duration_hours": 38,
+          "avg_price_pct_per_hour": 0.013505317652390159,
+          "price_rate_bps": 135.05317652390158,
+          "total_price_change_pct": 0.5876540041067763,
+          "avg_oi_pct_per_hour": 0.007213092311674415,
+          "avg_smooth_oi_pct": 0.007763129667601905,
+          "oi_surge_ratio": 1.3667718425986939,
+          "avg_vol_ratio": 24.16116943744553,
+          "max_vol_ratio": 80.3629498176082,
+          "oi_vol_correlation": -0.01651488965882673,
+          "peak_oi": 31572897.0,
+          "start_idx": 107,
+          "end_idx": 144
+        },
+        "3": {
+          "duration_hours": 95,
+          "avg_price_pct_per_hour": -0.000524763920077364,
+          "price_rate_bps": -5.247639200773641,
+          "total_price_change_pct": -0.08389234623777589,
+          "avg_oi_pct_per_hour": -0.002041622099270599,
+          "avg_smooth_oi_pct": -0.001982443001707596,
+          "oi_surge_ratio": 1.0,
+          "avg_vol_ratio": 5.706463486923956,
+          "max_vol_ratio": 19.842224757397783,
+          "oi_vol_correlation": 0.016776957711316376,
+          "peak_oi": 28907262.0,
+          "start_idx": 145,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 3,
+        "entry_price": 0.9508,
+        "peak_hour_offset": 33,
+        "peak_price": 1.4253,
+        "exit_price": 1.2768,
+        "potential_gain_pct": 49.905342869162816,
+        "realized_gain_pct": 34.2869162810265,
+        "phase2_duration": 38
+      }
+    },
+    {
+      "symbol": "CLOUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 230,
+      "phase2_end": 239,
+      "stats": {
+        "1": {
+          "duration_hours": 230,
+          "avg_price_pct_per_hour": -4.0671809762949576e-05,
+          "price_rate_bps": -0.40671809762949573,
+          "total_price_change_pct": -0.052434956637758545,
+          "avg_oi_pct_per_hour": 0.00020433937042403966,
+          "avg_smooth_oi_pct": 0.00023118383012576282,
+          "oi_surge_ratio": 1.3285719178552409,
+          "avg_vol_ratio": 0.9187480553743946,
+          "max_vol_ratio": 13.803248273493862,
+          "oi_vol_correlation": 0.6973492483662804,
+          "peak_oi": 52444853.0,
+          "start_idx": 0,
+          "end_idx": 229
+        },
+        "2": {
+          "duration_hours": 9,
+          "avg_price_pct_per_hour": 0.013595480437837676,
+          "price_rate_bps": 135.95480437837676,
+          "total_price_change_pct": 0.12965050732807215,
+          "avg_oi_pct_per_hour": 0.011832717019698472,
+          "avg_smooth_oi_pct": 0.007208632248749801,
+          "oi_surge_ratio": 1.1063381517405853,
+          "avg_vol_ratio": 4.445564998692674,
+          "max_vol_ratio": 9.48411544853778,
+          "oi_vol_correlation": 0.05247785564526932,
+          "peak_oi": 44853345.0,
+          "start_idx": 230,
+          "end_idx": 238
+        },
+        "3": {
+          "duration_hours": 1,
+          "avg_price_pct_per_hour": -0.011352295409181564,
+          "price_rate_bps": -113.52295409181563,
+          "total_price_change_pct": -0.011845386533665743,
+          "avg_oi_pct_per_hour": 0.10692807860818407,
+          "avg_smooth_oi_pct": 0.03255332278509122,
+          "oi_surge_ratio": 1.0,
+          "avg_vol_ratio": 6.785331655661023,
+          "max_vol_ratio": 6.785331655661023,
+          "oi_vol_correlation": 0.0,
+          "peak_oi": 49649427.0,
+          "start_idx": 239,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 3,
+        "entry_price": 0.07543,
+        "peak_hour_offset": 8,
+        "peak_price": 0.08016,
+        "exit_price": 0.07925,
+        "potential_gain_pct": 6.270714569799813,
+        "realized_gain_pct": 5.064298024658629,
+        "phase2_duration": 9
+      }
+    },
+    {
+      "symbol": "EULUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": null,
+      "phase2_end": null,
+      "stats": {
+        "1": {
+          "duration_hours": 58,
+          "avg_price_pct_per_hour": 0.0009601621989345473,
+          "price_rate_bps": 9.601621989345473,
+          "total_price_change_pct": 0.05241553520682035,
+          "avg_oi_pct_per_hour": -3.756429922025092e-05,
+          "avg_smooth_oi_pct": -0.0001171806205440187,
+          "oi_surge_ratio": 1.001194247234806,
+          "avg_vol_ratio": 1.181456016698268,
+          "max_vol_ratio": 4.489282121453398,
+          "oi_vol_correlation": -0.006327564287373053,
+          "peak_oi": 2898670.5,
+          "start_idx": 0,
+          "end_idx": 57
+        },
+        "3": {
+          "duration_hours": 182,
+          "avg_price_pct_per_hour": -9.691448431792406e-05,
+          "price_rate_bps": -0.9691448431792407,
+          "total_price_change_pct": -0.02513505402160871,
+          "avg_oi_pct_per_hour": 0.0005351259747789478,
+          "avg_smooth_oi_pct": 0.00046381038875678495,
+          "oi_surge_ratio": 1.1310575442758204,
+          "avg_vol_ratio": 2.219117228918509,
+          "max_vol_ratio": 60.75264013578523,
+          "oi_vol_correlation": 0.4568331639640756,
+          "peak_oi": 3264755.3,
+          "start_idx": 58,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": null
+    },
+    {
+      "symbol": "FIGHTUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 32,
+      "phase2_end": 53,
+      "stats": {
+        "1": {
+          "duration_hours": 32,
+          "avg_price_pct_per_hour": 0.0016651447196029995,
+          "price_rate_bps": 16.651447196029995,
+          "total_price_change_pct": 0.04382165605095549,
+          "avg_oi_pct_per_hour": -0.0010782628892289628,
+          "avg_smooth_oi_pct": -0.0012427500129305231,
+          "oi_surge_ratio": 1.002303510682483,
+          "avg_vol_ratio": 1.5745760372329123,
+          "max_vol_ratio": 6.310831634537225,
+          "oi_vol_correlation": 0.13909825737746884,
+          "peak_oi": 704478820.0,
+          "start_idx": 0,
+          "end_idx": 31
+        },
+        "2": {
+          "duration_hours": 21,
+          "avg_price_pct_per_hour": 0.006717587928427968,
+          "price_rate_bps": 67.17587928427967,
+          "total_price_change_pct": 0.1455433455433456,
+          "avg_oi_pct_per_hour": 0.012334565992140365,
+          "avg_smooth_oi_pct": 0.012770954907247677,
+          "oi_surge_ratio": 1.3256291044172526,
+          "avg_vol_ratio": 25.699115454751844,
+          "max_vol_ratio": 88.26182332727743,
+          "oi_vol_correlation": 0.6814850239298557,
+          "peak_oi": 906467235.0,
+          "start_idx": 32,
+          "end_idx": 52
+        },
+        "3": {
+          "duration_hours": 187,
+          "avg_price_pct_per_hour": 0.001015547410017744,
+          "price_rate_bps": 10.15547410017744,
+          "total_price_change_pct": 0.16058861164427388,
+          "avg_oi_pct_per_hour": -0.0005189283147717668,
+          "avg_smooth_oi_pct": -0.000572177320048871,
+          "oi_surge_ratio": 1.0881280671009377,
+          "avg_vol_ratio": 5.6763984694497704,
+          "max_vol_ratio": 59.72987286752292,
+          "oi_vol_correlation": 0.25189354627713684,
+          "peak_oi": 939551433.0,
+          "start_idx": 53,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 2,
+        "entry_price": 0.004089,
+        "peak_hour_offset": 15,
+        "peak_price": 0.004933,
+        "exit_price": 0.004695,
+        "potential_gain_pct": 20.640743458058207,
+        "realized_gain_pct": 14.820249449743232,
+        "phase2_duration": 21
+      }
+    },
+    {
+      "symbol": "HIGHUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 45,
+      "phase2_end": 87,
+      "stats": {
+        "1": {
+          "duration_hours": 45,
+          "avg_price_pct_per_hour": -0.000712548371684604,
+          "price_rate_bps": -7.12548371684604,
+          "total_price_change_pct": -0.030530262453133426,
+          "avg_oi_pct_per_hour": -0.00020177947759873887,
+          "avg_smooth_oi_pct": -0.00044572748373604545,
+          "oi_surge_ratio": 1.0081937858621701,
+          "avg_vol_ratio": 1.1297936051043058,
+          "max_vol_ratio": 4.83209538725751,
+          "oi_vol_correlation": 0.022891178265608353,
+          "peak_oi": 13759301.0,
+          "start_idx": 0,
+          "end_idx": 44
+        },
+        "2": {
+          "duration_hours": 42,
+          "avg_price_pct_per_hour": 0.0011211433031468618,
+          "price_rate_bps": 11.211433031468617,
+          "total_price_change_pct": 0.04475138121546959,
+          "avg_oi_pct_per_hour": 0.0050411936609153956,
+          "avg_smooth_oi_pct": 0.005329433088193555,
+          "oi_surge_ratio": 1.2353148836812464,
+          "avg_vol_ratio": 2.8721609243511157,
+          "max_vol_ratio": 16.152617646703114,
+          "oi_vol_correlation": 0.6360942445223913,
+          "peak_oi": 16832800.6,
+          "start_idx": 45,
+          "end_idx": 86
+        },
+        "3": {
+          "duration_hours": 153,
+          "avg_price_pct_per_hour": -0.0011871342569557614,
+          "price_rate_bps": -11.871342569557614,
+          "total_price_change_pct": -0.18306878306878302,
+          "avg_oi_pct_per_hour": 0.003783571735827674,
+          "avg_smooth_oi_pct": 0.0029935527469580896,
+          "oi_surge_ratio": 1.7585797811568296,
+          "avg_vol_ratio": 4.112715464191095,
+          "max_vol_ratio": 71.85390175245513,
+          "oi_vol_correlation": 0.27077640207283576,
+          "peak_oi": 28964363.3,
+          "start_idx": 87,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 4,
+        "entry_price": 0.1918,
+        "peak_hour_offset": 6,
+        "peak_price": 0.2011,
+        "exit_price": 0.1862,
+        "potential_gain_pct": 4.8488008342022955,
+        "realized_gain_pct": -2.919708029197077,
+        "phase2_duration": 42
+      }
+    },
+    {
+      "symbol": "IDOLUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 16,
+      "phase2_end": 31,
+      "stats": {
+        "1": {
+          "duration_hours": 16,
+          "avg_price_pct_per_hour": -0.001972692729274282,
+          "price_rate_bps": -19.72692729274282,
+          "total_price_change_pct": -0.02548294286888625,
+          "avg_oi_pct_per_hour": -0.0011070960232908676,
+          "avg_smooth_oi_pct": -0.0008277885091429677,
+          "oi_surge_ratio": 1.0001954551888024,
+          "avg_vol_ratio": 1.050079508995922,
+          "max_vol_ratio": 3.715361253302238,
+          "oi_vol_correlation": -0.4314871803460343,
+          "peak_oi": 114862068.0,
+          "start_idx": 0,
+          "end_idx": 15
+        },
+        "2": {
+          "duration_hours": 15,
+          "avg_price_pct_per_hour": 0.0075041898933981815,
+          "price_rate_bps": 75.04189893398181,
+          "total_price_change_pct": 0.11514129059468593,
+          "avg_oi_pct_per_hour": 0.004485651527896759,
+          "avg_smooth_oi_pct": 0.00416192281580228,
+          "oi_surge_ratio": 1.0859384837875468,
+          "avg_vol_ratio": 7.125570422488817,
+          "max_vol_ratio": 22.67170649116219,
+          "oi_vol_correlation": 0.7903922797053867,
+          "peak_oi": 122568731.0,
+          "start_idx": 16,
+          "end_idx": 30
+        },
+        "3": {
+          "duration_hours": 209,
+          "avg_price_pct_per_hour": 0.00040546442142206653,
+          "price_rate_bps": 4.054644214220665,
+          "total_price_change_pct": 0.08405906853464595,
+          "avg_oi_pct_per_hour": 6.364301828562573e-06,
+          "avg_smooth_oi_pct": 0.00013394564409646625,
+          "oi_surge_ratio": 1.0671751712531343,
+          "avg_vol_ratio": 1.1697306693959295,
+          "max_vol_ratio": 20.591993596458288,
+          "oi_vol_correlation": 0.5743097690570321,
+          "peak_oi": 126775909.0,
+          "start_idx": 31,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 3,
+        "entry_price": 0.02655,
+        "peak_hour_offset": 8,
+        "peak_price": 0.02733,
+        "exit_price": 0.02639,
+        "potential_gain_pct": 2.9378531073446306,
+        "realized_gain_pct": -0.6026365348399262,
+        "phase2_duration": 15
+      }
+    },
+    {
+      "symbol": "JELLYJELLYUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 81,
+      "phase2_end": 120,
+      "stats": {
+        "1": {
+          "duration_hours": 81,
+          "avg_price_pct_per_hour": 2.9099532874314526e-05,
+          "price_rate_bps": 0.29099532874314527,
+          "total_price_change_pct": -0.015622483491705566,
+          "avg_oi_pct_per_hour": -0.0003297343405261415,
+          "avg_smooth_oi_pct": -0.0003313309679874504,
+          "oi_surge_ratio": 1.0,
+          "avg_vol_ratio": 1.062859580212981,
+          "max_vol_ratio": 6.122041042166769,
+          "oi_vol_correlation": 0.12308639596709757,
+          "peak_oi": 79792850.0,
+          "start_idx": 0,
+          "end_idx": 80
+        },
+        "2": {
+          "duration_hours": 39,
+          "avg_price_pct_per_hour": 0.0023348639711080472,
+          "price_rate_bps": 23.348639711080473,
+          "total_price_change_pct": 0.08936170212765945,
+          "avg_oi_pct_per_hour": 0.0027896237045215177,
+          "avg_smooth_oi_pct": 0.0030272992486527752,
+          "oi_surge_ratio": 1.1460415536117188,
+          "avg_vol_ratio": 4.843478395560813,
+          "max_vol_ratio": 12.469989621496726,
+          "oi_vol_correlation": 0.43115018508589714,
+          "peak_oi": 89402281.0,
+          "start_idx": 81,
+          "end_idx": 119
+        },
+        "3": {
+          "duration_hours": 120,
+          "avg_price_pct_per_hour": -0.0009620779041750754,
+          "price_rate_bps": -9.620779041750755,
+          "total_price_change_pct": -0.11745268849504356,
+          "avg_oi_pct_per_hour": 0.00025301884496764103,
+          "avg_smooth_oi_pct": 0.00014832258025206438,
+          "oi_surge_ratio": 1.047627120707184,
+          "avg_vol_ratio": 2.5162922752972934,
+          "max_vol_ratio": 36.680537820175765,
+          "oi_vol_correlation": 0.5080998655973412,
+          "peak_oi": 90627380.0,
+          "start_idx": 120,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 2,
+        "entry_price": 0.0647,
+        "peak_hour_offset": 30,
+        "peak_price": 0.07403,
+        "exit_price": 0.06578,
+        "potential_gain_pct": 14.420401854714074,
+        "realized_gain_pct": 1.6692426584235112,
+        "phase2_duration": 39
+      }
+    },
+    {
+      "symbol": "MAVIAUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 140,
+      "phase2_end": 174,
+      "stats": {
+        "1": {
+          "duration_hours": 140,
+          "avg_price_pct_per_hour": 0.00011105773682032657,
+          "price_rate_bps": 1.1105773682032658,
+          "total_price_change_pct": 0.007866868381240434,
+          "avg_oi_pct_per_hour": -0.0001146156296295,
+          "avg_smooth_oi_pct": -0.00018276479284411314,
+          "oi_surge_ratio": 1.1256266399345731,
+          "avg_vol_ratio": 2.4085160692453393,
+          "max_vol_ratio": 18.36117045579729,
+          "oi_vol_correlation": 0.17250800255886115,
+          "peak_oi": 26424539.0,
+          "start_idx": 0,
+          "end_idx": 139
+        },
+        "2": {
+          "duration_hours": 34,
+          "avg_price_pct_per_hour": -0.0008045788552556509,
+          "price_rate_bps": -8.045788552556509,
+          "total_price_change_pct": -0.02764423076923069,
+          "avg_oi_pct_per_hour": 0.001686636666623104,
+          "avg_smooth_oi_pct": 0.002144381069361515,
+          "oi_surge_ratio": 1.0760825420139029,
+          "avg_vol_ratio": 1.9745627564611998,
+          "max_vol_ratio": 7.342215472077698,
+          "oi_vol_correlation": 0.23824248483933852,
+          "peak_oi": 24701945.0,
+          "start_idx": 140,
+          "end_idx": 173
+        },
+        "3": {
+          "duration_hours": 66,
+          "avg_price_pct_per_hour": 0.0010011331845538923,
+          "price_rate_bps": 10.011331845538923,
+          "total_price_change_pct": 0.06211372064276879,
+          "avg_oi_pct_per_hour": 0.005743271907834409,
+          "avg_smooth_oi_pct": 0.005856882498341177,
+          "oi_surge_ratio": 1.5913571998959306,
+          "avg_vol_ratio": 5.892558600471982,
+          "max_vol_ratio": 64.71665766714283,
+          "oi_vol_correlation": 0.6689792303265588,
+          "peak_oi": 38497410.0,
+          "start_idx": 174,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 2,
+        "entry_price": 0.03413,
+        "peak_hour_offset": 5,
+        "peak_price": 0.03485,
+        "exit_price": 0.03239,
+        "potential_gain_pct": 2.1095810137708715,
+        "realized_gain_pct": -5.098154116612946,
+        "phase2_duration": 34
+      }
+    },
+    {
+      "symbol": "RIFUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 160,
+      "phase2_end": 180,
+      "stats": {
+        "1": {
+          "duration_hours": 160,
+          "avg_price_pct_per_hour": -0.0025317638932606723,
+          "price_rate_bps": -25.317638932606723,
+          "total_price_change_pct": -0.34923530237126427,
+          "avg_oi_pct_per_hour": 0.004711167397975984,
+          "avg_smooth_oi_pct": 0.0045957872294443,
+          "oi_surge_ratio": 2.325528365939725,
+          "avg_vol_ratio": 6.274943183222893,
+          "max_vol_ratio": 50.50203095443165,
+          "oi_vol_correlation": 0.5742737367907473,
+          "peak_oi": 77967550.0,
+          "start_idx": 0,
+          "end_idx": 159
+        },
+        "2": {
+          "duration_hours": 20,
+          "avg_price_pct_per_hour": 0.007313096550612357,
+          "price_rate_bps": 73.13096550612357,
+          "total_price_change_pct": 0.15379637618636766,
+          "avg_oi_pct_per_hour": -0.0037058074693112437,
+          "avg_smooth_oi_pct": -0.0026168853718618566,
+          "oi_surge_ratio": 1.0483772951410628,
+          "avg_vol_ratio": 10.34936077889224,
+          "max_vol_ratio": 20.302702749656383,
+          "oi_vol_correlation": 0.25966914638136945,
+          "peak_oi": 73270674.0,
+          "start_idx": 160,
+          "end_idx": 179
+        },
+        "3": {
+          "duration_hours": 60,
+          "avg_price_pct_per_hour": 0.00413040774246566,
+          "price_rate_bps": 41.304077424656604,
+          "total_price_change_pct": 0.2634137221910637,
+          "avg_oi_pct_per_hour": -0.0016756102498998204,
+          "avg_smooth_oi_pct": -0.0037400724949498408,
+          "oi_surge_ratio": 1.0,
+          "avg_vol_ratio": 9.65490918113459,
+          "max_vol_ratio": 33.769052517494806,
+          "oi_vol_correlation": 0.3585982345638743,
+          "peak_oi": 62500418.0,
+          "start_idx": 180,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 0,
+        "entry_price": 0.04792,
+        "peak_hour_offset": 14,
+        "peak_price": 0.054,
+        "exit_price": 0.05495,
+        "potential_gain_pct": 12.687813021702842,
+        "realized_gain_pct": 14.670283806343912,
+        "phase2_duration": 20
+      }
+    },
+    {
+      "symbol": "USTCUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 216,
+      "phase2_end": 232,
+      "stats": {
+        "1": {
+          "duration_hours": 216,
+          "avg_price_pct_per_hour": -0.00035375811628718656,
+          "price_rate_bps": -3.5375811628718656,
+          "total_price_change_pct": -0.07918163360924561,
+          "avg_oi_pct_per_hour": -9.91911592857246e-05,
+          "avg_smooth_oi_pct": -6.457732111151435e-05,
+          "oi_surge_ratio": 1.0354350602308275,
+          "avg_vol_ratio": 0.9717291423209218,
+          "max_vol_ratio": 5.403751077704226,
+          "oi_vol_correlation": -0.13056010927529216,
+          "peak_oi": 203823270.0,
+          "start_idx": 0,
+          "end_idx": 215
+        },
+        "2": {
+          "duration_hours": 16,
+          "avg_price_pct_per_hour": 0.008648128332274303,
+          "price_rate_bps": 86.48128332274304,
+          "total_price_change_pct": 0.14394710071210595,
+          "avg_oi_pct_per_hour": 0.013198133443305117,
+          "avg_smooth_oi_pct": 0.010509869691236934,
+          "oi_surge_ratio": 1.2156568010388578,
+          "avg_vol_ratio": 4.92074449478246,
+          "max_vol_ratio": 13.815982430744716,
+          "oi_vol_correlation": 0.7068692016099083,
+          "peak_oi": 235323447.0,
+          "start_idx": 216,
+          "end_idx": 231
+        },
+        "3": {
+          "duration_hours": 8,
+          "avg_price_pct_per_hour": -0.00503747090417433,
+          "price_rate_bps": -50.374709041743294,
+          "total_price_change_pct": -0.03902656180442205,
+          "avg_oi_pct_per_hour": -0.008720331488336446,
+          "avg_smooth_oi_pct": 0.0033870594586156853,
+          "oi_surge_ratio": 1.051330083943372,
+          "avg_vol_ratio": 7.016063257861061,
+          "max_vol_ratio": 10.476384447070332,
+          "oi_vol_correlation": 0.2097423143138284,
+          "peak_oi": 250336010.0,
+          "start_idx": 232,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 3,
+        "entry_price": 0.006124,
+        "peak_hour_offset": 15,
+        "peak_price": 0.006747,
+        "exit_price": 0.006686,
+        "potential_gain_pct": 10.17308948399739,
+        "realized_gain_pct": 9.177008491182233,
+        "phase2_duration": 16
+      }
+    },
+    {
+      "symbol": "USUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 219,
+      "phase2_end": 235,
+      "stats": {
+        "1": {
+          "duration_hours": 219,
+          "avg_price_pct_per_hour": 0.0007517003866890448,
+          "price_rate_bps": 7.517003866890448,
+          "total_price_change_pct": 0.10794737790592894,
+          "avg_oi_pct_per_hour": -0.0006017602628224205,
+          "avg_smooth_oi_pct": -0.0006254648868141756,
+          "oi_surge_ratio": 1.0,
+          "avg_vol_ratio": 1.2176279633777762,
+          "max_vol_ratio": 10.471365855899366,
+          "oi_vol_correlation": 0.0729922792024047,
+          "peak_oi": 596414778.0,
+          "start_idx": 0,
+          "end_idx": 218
+        },
+        "2": {
+          "duration_hours": 16,
+          "avg_price_pct_per_hour": 0.009151007347570905,
+          "price_rate_bps": 91.51007347570905,
+          "total_price_change_pct": 0.15462239583333323,
+          "avg_oi_pct_per_hour": 0.012049207051310767,
+          "avg_smooth_oi_pct": 0.013314746189328305,
+          "oi_surge_ratio": 1.3215343175189955,
+          "avg_vol_ratio": 14.604330240914718,
+          "max_vol_ratio": 32.09841057991113,
+          "oi_vol_correlation": 0.6290327158759218,
+          "peak_oi": 687412942.0,
+          "start_idx": 219,
+          "end_idx": 234
+        },
+        "3": {
+          "duration_hours": 5,
+          "avg_price_pct_per_hour": 0.0022885869132956466,
+          "price_rate_bps": 22.885869132956465,
+          "total_price_change_pct": 0.011990407673860913,
+          "avg_oi_pct_per_hour": -4.66726464804848e-05,
+          "avg_smooth_oi_pct": -0.0040311895793653275,
+          "oi_surge_ratio": 1.0,
+          "avg_vol_ratio": 5.150471326002451,
+          "max_vol_ratio": 7.5105277043544545,
+          "oi_vol_correlation": 0.21160845183802013,
+          "peak_oi": 630522144.0,
+          "start_idx": 235,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 3,
+        "entry_price": 0.006725,
+        "peak_hour_offset": 14,
+        "peak_price": 0.007115,
+        "exit_price": 0.007085,
+        "potential_gain_pct": 5.799256505576204,
+        "realized_gain_pct": 5.3531598513011165,
+        "phase2_duration": 16
+      }
+    },
+    {
+      "symbol": "XLMUSDT",
+      "data_range": "2026-05-17 19:00 \u2192 2026-05-27 18:00",
+      "total_candles": 240,
+      "phase2_start": 231,
+      "phase2_end": 238,
+      "stats": {
+        "1": {
+          "duration_hours": 231,
+          "avg_price_pct_per_hour": -0.0001259501035078927,
+          "price_rate_bps": -1.259501035078927,
+          "total_price_change_pct": -0.028522268546092123,
+          "avg_oi_pct_per_hour": -0.0006057919453349836,
+          "avg_smooth_oi_pct": -0.0006144242889518175,
+          "oi_surge_ratio": 1.001490082006091,
+          "avg_vol_ratio": 0.9400125172627145,
+          "max_vol_ratio": 7.03202852791663,
+          "oi_vol_correlation": 0.01747012630097535,
+          "peak_oi": 177073865.0,
+          "start_idx": 0,
+          "end_idx": 230
+        },
+        "2": {
+          "duration_hours": 7,
+          "avg_price_pct_per_hour": 0.015346337660865355,
+          "price_rate_bps": 153.46337660865356,
+          "total_price_change_pct": 0.11117166212534041,
+          "avg_oi_pct_per_hour": 0.030194621790688787,
+          "avg_smooth_oi_pct": 0.010941512077828454,
+          "oi_surge_ratio": 1.2239874717076633,
+          "avg_vol_ratio": 7.129894085186328,
+          "max_vol_ratio": 17.48340708863137,
+          "oi_vol_correlation": 0.3599754882015689,
+          "peak_oi": 186338756.0,
+          "start_idx": 231,
+          "end_idx": 237
+        },
+        "3": {
+          "duration_hours": 2,
+          "avg_price_pct_per_hour": -0.008843468417858193,
+          "price_rate_bps": -88.43468417858193,
+          "total_price_change_pct": -0.017656796027220853,
+          "avg_oi_pct_per_hour": 0.01848062180411518,
+          "avg_smooth_oi_pct": 0.04126458264437712,
+          "oi_surge_ratio": 1.002202248007766,
+          "avg_vol_ratio": 5.175173703186915,
+          "max_vol_ratio": 8.055588387785196,
+          "oi_vol_correlation": 0.0,
+          "peak_oi": 193240332.0,
+          "start_idx": 238,
+          "end_idx": 239
+        }
+      },
+      "entry_exit": {
+        "entry_hour_offset": 3,
+        "entry_price": 0.15134,
+        "peak_hour_offset": 6,
+        "peak_price": 0.16312,
+        "exit_price": 0.15998,
+        "potential_gain_pct": 7.783798070569568,
+        "realized_gain_pct": 5.7089996035417,
+        "phase2_duration": 7
+      }
+    }
+  ],
+  "fingerprint": {
+    "n_coins": 14,
+    "phase2": {
+      "duration_hours_mean": 21.428571428571427,
+      "duration_hours_median": 16.5,
+      "duration_hours_range": [
+        7,
+        42
+      ],
+      "price_rate_bps_mean": 76.07176322316234,
+      "price_rate_bps_median": 74.0864322200527,
+      "total_price_change_mean": 0.13953725270266323,
+      "total_price_change_median": 0.12360184378483015,
+      "oi_rate_mean": 0.009155893030828893,
+      "oi_rate_median": 0.00947177513419571,
+      "oi_surge_mean": 1.1917407277459398,
+      "oi_surge_median": 1.1916213233300645,
+      "vol_ratio_mean": 8.793229972997453,
+      "vol_ratio_median": 6.023157458635639,
+      "max_vol_ratio_mean": 25.3683914007599,
+      "oi_vol_corr_mean": 0.4450887883483762
+    },
+    "phase3": {
+      "duration_hours_mean": 83.73333333333333,
+      "oi_rate_mean": 0.01036415205620133,
+      "price_rate_mean": -0.0021354941875605707,
+      "vol_ratio_mean": 5.594321483669125
+    },
+    "entry_exit": {
+      "entry_offset_mean": 2.142857142857143,
+      "entry_offset_median": 2.5,
+      "peak_offset_mean": 13.285714285714286,
+      "peak_offset_median": 11.5,
+      "potential_gain_mean": 11.816685734947157,
+      "potential_gain_median": 8.978443777283479,
+      "realized_gain_mean": 7.0928423808516,
+      "realized_gain_median": 5.208728937979872
+    }
+  },
+  "rules": {
+    "OI_ACCELERATION_THRESHOLD": {
+      "description": "Hourly OI change rate to trigger alert",
+      "display": "0.663% per hour"
+    },
+    "OI_ACCELERATION_MIN_HOURS": {
+      "description": "Consecutive hours of OI acceleration needed"
+    },
+    "VOLUME_SURGE_THRESHOLD": {
+      "description": "Volume ratio vs baseline to confirm markup",
+      "display": "3.6x baseline"
+    },
+    "PRICE_RATE_THRESHOLD": {
+      "description": "Minimum hourly price increase in bps",
+      "display": "37 bps/hour"
+    },
+    "PHASE2_DURATION_TYPICAL": {
+      "description": "Typical markup phase duration in hours",
+      "display": "16 hours"
+    },
+    "PHASE2_DURATION_RANGE": {
+      "description": "Min/max observed markup duration",
+      "display": "7-42 hours"
+    },
+    "TOTAL_PUMP_TYPICAL": {
+      "description": "Typical total price increase during markup",
+      "display": "12.4%"
+    },
+    "OI_SURGE_RATIO": {
+      "description": "OI multiplier from start to peak of Phase 2",
+      "display": "1.19x"
+    },
+    "ENTRY_TIMING": {
+      "description": "Optimal entry: N hours after Phase 2 starts",
+      "display": "Hour 2 of Phase 2"
+    },
+    "PEAK_TIMING": {
+      "description": "Peak price typically at hour N of Phase 2",
+      "display": "Hour 12 of Phase 2"
+    },
+    "POTENTIAL_GAIN": {
+      "description": "Median potential gain (entry to peak)",
+      "display": "9.0%"
+    },
+    "EXIT_SIGNAL_OI_DECLINE": {
+      "description": "Exit when OI change drops below this rate",
+      "display": "1.036% per hour"
+    },
+    "EXIT_SIGNAL_VOL_DECLINE": {
+      "description": "Exit when volume drops below this ratio",
+      "display": "5.59x baseline"
+    }
+  }
+}

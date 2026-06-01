@@ -1,0 +1,96 @@
+{
+  "timestamp": "2026-05-28T02:20:54.960389",
+  "config": {
+    "starting_capital": 1000.0,
+    "leverage": 10,
+    "stop_loss_pct": 8.0,
+    "take_profit_pct": 15.0,
+    "max_position_pct": 0.5,
+    "max_concurrent": 3,
+    "commission_rate": 0.0004
+  },
+  "data": {
+    "symbols": [
+      "BTCUSDT",
+      "ETHUSDT",
+      "BNBUSDT",
+      "SOLUSDT",
+      "XRPUSDT",
+      "DOGEUSDT",
+      "ADAUSDT",
+      "AVAXUSDT",
+      "DOTUSDT",
+      "LINKUSDT",
+      "MATICUSDT",
+      "UNIUSDT",
+      "LTCUSDT",
+      "ATOMUSDT",
+      "NEARUSDT"
+    ],
+    "is_synthetic": true,
+    "hours": 720
+  },
+  "strategies": [
+    {
+      "name": "A: Pure Momentum",
+      "final_balance": 2.03,
+      "total_return_pct": -99.8,
+      "total_trades": 19,
+      "win_rate": 31.6,
+      "avg_win": 202.86,
+      "avg_loss": -47.89,
+      "max_drawdown": 99.84,
+      "sharpe": -8.82,
+      "profit_factor": 1.96
+    },
+    {
+      "name": "B: OI + Price",
+      "final_balance": -187.85,
+      "total_return_pct": -118.78,
+      "total_trades": 5,
+      "win_rate": 20.0,
+      "avg_win": 310.58,
+      "avg_loss": -143.74,
+      "max_drawdown": 116.68,
+      "sharpe": -27.83,
+      "profit_factor": 0.54
+    },
+    {
+      "name": "C: Volume Surge",
+      "final_balance": 1000.0,
+      "total_return_pct": 0,
+      "total_trades": 0,
+      "win_rate": 0,
+      "avg_win": 0,
+      "avg_loss": 0,
+      "max_drawdown": 0,
+      "sharpe": 0,
+      "profit_factor": 0
+    },
+    {
+      "name": "D: RSI Reversal",
+      "final_balance": 1.4,
+      "total_return_pct": -99.86,
+      "total_trades": 21,
+      "win_rate": 42.9,
+      "avg_win": 88.0,
+      "avg_loss": -46.73,
+      "max_drawdown": 99.87,
+      "sharpe": -7.92,
+      "profit_factor": 1.41
+    },
+    {
+      "name": "E: Combined Score",
+      "final_balance": -147.53,
+      "total_return_pct": -114.75,
+      "total_trades": 7,
+      "win_rate": 42.9,
+      "avg_win": 292.23,
+      "avg_loss": -159.89,
+      "max_drawdown": 111.32,
+      "sharpe": -27.42,
+      "profit_factor": 1.37
+    }
+  ],
+  "best_strategy": "C: Volume Surge"
+}

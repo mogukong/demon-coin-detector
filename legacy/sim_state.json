@@ -1,0 +1,33 @@
+{
+  "capital": 125.0,
+  "positions": [
+    {
+      "symbol": "CLOUSDT",
+      "entry_price": 0.07948,
+      "entry_time": 1779908619855.5752,
+      "size": 500.0,
+      "score": 65,
+      "leverage": 10
+    },
+    {
+      "symbol": "XLMUSDT",
+      "entry_price": 0.16746,
+      "entry_time": 1779908619855.666,
+      "size": 250.0,
+      "score": 65,
+      "leverage": 10
+    },
+    {
+      "symbol": "HIGHUSDT",
+      "entry_price": 0.1496,
+      "entry_time": 1779908619855.675,
+      "size": 125.0,
+      "score": 60,
+      "leverage": 10
+    }
+  ],
+  "closed_trades": [],
+  "total_pnl": 0,
+  "start_time": "2026-05-28T03:02:53.724618",
+  "last_update": "2026-05-28T04:14:52.351811"
+}
